@@ -1,0 +1,149 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1.75fr 1.25fr;
+  row-gap: 32px;
+  column-gap: 32px;
+  height: 70vh;
+}
+
+.searchBox {
+  grid-column: span 2;
+  align-self: center;
+}
+
+.more {
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+
+.forecast {
+  grid-row: span 2;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.moreElement {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 24px;
+}
+
+.moreElementEx {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.columbFlex {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.list {
+  list-style: none;
+}
+
+.view {
+  background-color: #000000d0;
+  color: #fff;
+  padding: 32px;
+  border-radius: 30px;
+}
+
+.dynamic {
+  color: #e5c4ee;
+
+  transition: all 0.35s;
+  height: 300px;
+}
+
+.dynamic:hover {
+  transform: translateY(-1rem);
+  background: #7f00ffd0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right bottom,
+    #e100ffd0,
+    #7f00ffd0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right bottom,
+    #e100ffd0,
+    #7f00ffd0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #fff;
+}
+
+/* 77C116 */
+.dynamic1 {
+  color: #e5c4ee;
+
+  transition: all 0.35s;
+  height: 200px;
+}
+
+.dynamic1:hover {
+  transform: translateY(-1rem);
+  background: #ff00ccd0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right bottom,
+    #7f00ffd0,
+    #ff00ccd0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right bottom,
+    #7f00ffd0,
+    #ff00ccd0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #fff;
+}
+
+.dynamic2 {
+  color: #e5c4ee;
+
+  transition: all 0.35s;
+}
+
+.dynamic2:hover {
+  transform: translateY(-1rem);
+  background: #7f00ffd0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right bottom,
+    #7f00ffd0,
+    #ff00ccd0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right bottom,
+    #7f00ffd0,
+    #ff00ccd0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #fff;
+}
+
+.orengeRed {
+  color: orangered;
+}
+.redcolor {
+  color: rgb(253, 0, 0);
+}
+
+.graycolor {
+  color: #94a3b8;
+}
+
+.bluecolor {
+  color: #38bdf8;
+}
+
+.yellowcolor {
+  color: #16a34a;
+}

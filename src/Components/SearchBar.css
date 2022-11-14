@@ -1,0 +1,85 @@
+.searchButton {
+  margin: 8px;
+
+  border: none;
+  width: 48px;
+  height: 48px;
+
+  border-radius: 50%;
+  background-color: #000000d0;
+  color: #fff;
+
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+/* .searchButton:hover {
+  background-color: #862e9cd0;
+  color: #000;
+} */
+
+ion-icon {
+  width: 24px;
+  height: 24px;
+}
+.searchInputForm {
+  margin-right: 8px;
+  width: 90%;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: #000000d0;
+  color: #fff;
+  width: 100%;
+  font-size: 105%;
+}
+
+.searchCon {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.bar {
+  color: #e5c4ee;
+
+  transition: all 0.35s;
+}
+
+.bar:hover {
+  transform: translateY(-1rem);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #fc00ffd0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right bottom,
+    #00dbded0,
+    #fc00ffd0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right bottom,
+    #00dbded0,
+    #fc00ffd0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #fff;
+}
+.btn {
+  color: #e5c4ee;
+
+  transition: all 0.35s;
+}
+
+.btn:hover {
+  transform: translateY(-1rem);
+  background: #fc00ffd0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right bottom,
+    #00dbded0,
+    #fc00ffd0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right bottom, #00dbde, #fc00ffd0);
+  color: #fff;
+}

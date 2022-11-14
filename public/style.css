@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #333;
+  background-image: url("https://source.unsplash.com/1600x900/?neature");
+  font-size: 120%;
+}
+
+.container {
+  max-width: 900px;
+  padding: 0 32px;
+  margin: 32px auto 0;
+}
